@@ -1,8 +1,6 @@
 package com.greatlearning.itsupport.main;
 
-import java.awt.geom.GeneralPath;
 import java.util.Scanner;
-
 import com.greatlearning.itsupport.model.Employee;
 import com.greatlearning.itsupport.service.CredentialService;
 import com.greatlearning.itsupport.service.CredentialServiceImpl;
