@@ -22,7 +22,7 @@ public class Driver {
 		while (dept == null) {
 			try {
 				dept = getDepartmentCode();
-			} catch (ArrayIndexOutOfBoundsException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -46,7 +46,7 @@ public class Driver {
 			deptNumber = scan.nextInt();
 			dept = deptCodes[deptNumber - 1];
 			System.out.println("Department input by emp: "+dept);
-		} catch (ArrayIndexOutOfBoundsException e) {
+		} catch (Exception e) {
 			System.out.println("Please enter a valid department number");
 			//e.printStackTrace();
 			getDepartmentCode();
